@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>r</title>
+    
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+         
+        background-size: 100% 100%;
+        background-repeat: repeat;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+      }
+      section{
+        
+        position: relative;
+      }
+      
+      /* *******intro-section CSS starts here******* */
+      #intro {
+      
+        height: 120vh;
+        margin: -10px 100px 10px 100px;
+        /* background:url(https://i.ytimg.com/vi/o7Dta2FkMpI/maxresdefault.jpg); */
+        /* background:url(https://images4.alphacoders.com/197/197876.jpg); */
+        background:url(https://www.topfreeintro.com/wp-content/uploads/2020/04/No-Text-Intro-Template-205.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+         
+      }
+      .intro-navigation {
+        
+        /* border: 2px solid rgb(124, 48, 48); */
+        background: black;
+        display: flex;
+      
+        justify-content: center;
+        height: 50px;
+        width: 1302px;
+       
+   
+        position: fixed;
+        z-index: 12;
+        border: 0.1px solid rgba(0, 0, 0, 0.0007) ;
+        background-color:rgb(255, 255, 255,0.1);
+        backdrop-filter: blur(70px);
+        border-radius: 50px;
+        
+        
+      }
+      
+      .intro-navigation a {
+        color: black;
+        text-decoration: none;
+        padding: 10px 50px 10px 50px;
+        margin: 5px 50px 5px 50px;
+      }
+      .intro-navigation a:hover{
+        background-color: rgb(22, 16, 13);
+        border: 2px solid rgb(43, 37, 37);
+        border-radius: 15px;
+        color: whitesmoke;
+      }
+      .intro-profile {
+        float: right;
+        margin-right: 50px;
+        margin-top: 200px;
+      }
+      
+      .intro-description {
+        
+        margin-top: 200px;
+        margin-left: 145px;
+        float: left;
+        font-size: 30px;
+        color: white;
+        font-family: 'Patrick Hand', cursive;
+      }
+      .heading,
+      .name,
+      .collegename,
+      .departmentname,
+      .native {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: 'Patrick Hand', cursive;
+        font-size: 50px;
+      }
+      .Hi {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: 'Patrick Hand', cursive;
+        font-size: 50px;
+      }
+      /* *******intro-section CSS ends here******* */
+     
+       
+      
+      
+    
+      /* *******Skill-section CSS Starts here******* */
+      #Skills {
+        /* border: 2px solid red; */
+        height: 120vh;
+        margin: -10px 100px 10px 100px;
+        /* background:url(https://alanhylands.com/images/content/library-lights.jpg); */
+        background:url(https://english.swps.pl/images/2015/Aktualnosci/Human-skills.jpg);
+        /* background:url(https://media.edutopia.org/styles/responsive_2880px_original/s3/masters/d7_images/cover_media/terada-169hero-memory-shutterstock.jpg); */
+        background:url(https://venturebeat.com/wp-content/uploads/2018/07/1500-js1024_bellagio4-wlogo.jpg?w=800);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        /* background-color: black; */
+      }
+      /* heading inside skills */
+      .Skills-heading1{
+         text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+        }
+      /* underline for heading1 */
+      .Skills-heading1 hr{
+        margin : 5px 30%;
+         }
+     
+         .Skills-upperskillbox{
+        background-color:rgb(255, 255, 255,0.1);
+        backdrop-filter: blur(7px);
+        border:   1px solid rgb(143, 120, 120);
+        box-shadow: 1px 1px 3px 2px rgba(20, 20, 19, 0.418);
+       
+        box-sizing: border-box;
+        margin: 10px 42px;
+       }
+      .Skills-programmingimage1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        }
+        .Skills-C,.Skills-Cpp{
+        text-decoration: overline;
+        margin-left: 40px;
+      }
+      .Skills-JAVA ,.Skills-Algorithm ,.Skills-HTML , .Skills-CSS{
+        text-decoration: overline;
+        margin-left: 55px;
+      }
+      .Skills-Java-Script {
+        text-decoration: overline;
+        margin-left: 45px;
+      }
+      .Skills-react{
+        text-decoration: overline;
+        margin-left: 65px;
+      }
+      .Skills-lowerskillbox{
+        background-color:rgb(255, 255, 255,0.1);
+        backdrop-filter: blur(7px);
+        border: 2px solid black; border:   1px solid rgb(143, 120, 120);
+        box-shadow: 1px 1px 3px 2px rgba(20, 20, 19, 0.418);  
+        box-sizing: border-box;
+        margin: 60px 42px;
+        margin-bottom: -100px;
+        } 
+      .Skills-myHobby-Heading{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+        text-align: center;
+      }
+      /* underline for myhobby heading */
+      .Skills-myHobby-Heading hr{
+        margin : 5px 42%;
+         }
+     .Skills-myHobbyimage1{
+        display: flex;
+       flex-wrap: wrap;
+       justify-content: space-around;
+      
+      }
+     .Skills-myHobbyimage{
+        margin-top: 20px;
+        }
+      
+     /* *******Skill-section CSS ends here******* */
+      
+      /* *******Education-seciton CSS starts here******* */
+      #Education {
+        
+        /* border: 2px solid red; */
+        height: 120vh;
+        margin: -10px 100px 10px 100px;
+        /* background: url(contactusbg.jpg); */
+        background-size: contain;
+        
+        /* background:url(https://www.topfreeintro.com/wp-content/uploads/2020/04/No-Text-Intro-Template-205.jpg); */
+        background:url(bg8.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
+      
+      .Education-part-1{
+          
+        box-sizing: border-box;
+        /* border: 0.1px solid rgba(0, 0, 0, 0.0007) ; */
+        background-color:rgb(255, 255, 255,0.1);
+        backdrop-filter: blur(70px);
+        border:   1px solid rgb(22, 22, 22);
+        box-shadow: 1px 1px 3px 2px rgba(20, 20, 19, 0.418);
+        margin: 60px 50px;
+        text-align : center;
+      }
+      .Education-part-1-start{
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        /* margin-top: 50px; */
+         }
+         .Education-part-1-schoolname{
+             font-size: 20px;
+             font-family: fantasy;
+         }
+         .Education-part-1-info{
+             font-size: 15px;
+             /* margin: 0px 100px 0px 100px; */
+              
+         }
+         .Education-part-2{
+          box-sizing: border-box;
+        border: 0.1px solid rgba(0, 0, 0, 0.0007) ;
+        background-color:rgb(255, 255, 255,0.1);
+        backdrop-filter: blur(70px);
+        border:   1px solid rgb(22, 22, 22);
+        box-shadow: 1px 1px 3px 2px rgba(20, 20, 19, 0.418);
+        margin: 60px 50px;
+        text-align : center;
+         }
+         .Education-part-2-start{
+             
+             font-size: 30px;
+             font-family: Verdana, Geneva, Tahoma, sans-serif;
+         }
+         .Education-part-2-schoolname{
+             font-size: 20px;
+             font-family: fantasy;
+         }
+         .Education-part-2-info{
+             font-size: 15px;
+             /* margin: 0px 100px 0px 100px; */
+              
+         }
+         .Education-part-3{
+          box-sizing: border-box;
+        border: 0.1px solid rgba(0, 0, 0, 0.0007) ;
+        background-color:rgb(255, 255, 255,0.1);
+        backdrop-filter: blur(70px);
+        border:   1px solid rgb(22, 22, 22);
+        box-shadow: 1px 1px 3px 2px rgba(20, 20, 19, 0.418);
+        margin: 30px 50px;
+        text-align : center;
+         }
+         .Education-part-3-start{
+             
+             font-size: 30px;
+             font-family: Verdana, Geneva, Tahoma, sans-serif;
+         }
+         .Education-part-3-schoolname{
+             font-size: 20px;
+             font-family: fantasy;
+         }
+         .Education-part-3-info{
+             font-size: 15px;
+             /* margin: 0px 100px 0px 100px; */
+              
+         }
+      /* *******Education-seciton CSS ends here******* */
+
+      /*   *******Contactus-seciton CSS starts here*******  */
+      #Contactus {
+        
+        height: 120vh;
+        margin: -10px 100px 10px 100px;
+        background: url(contactusbg.jpg);
+         
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+       
+      }
+      
+      /* .contactus-head {
+        
+        box-sizing: border-box;
+        height: 300px;
+         
+      } */
+      .contactus-heading {
+        text-align: center;
+        color: rgb(43, 24, 24);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 50px;
+       
+      }
+      .contactus-Number-Mail{
+        text-align: center;
+        margin-top: 20px;
+      }
+      .phone ,.email{
+        font-size: 32px ;
+      }
+      .contactus-socialmedia{
+        text-align: center;
+        margin-top: 50px;
+      }
+      .contactus-socialmedia a {
+         margin: 10px 50px 10px 50px;
+         }
+      .contactus-form{
+        text-align: center;
+        /* align-items: center; */
+      }
+      .contactus-form input {
+    margin: 15px 15px;
+    width: 200px;
+    border: none;
+    height: 30px;
+    border-bottom: 1px solid rgb(51, 50, 50);
+    transition: width 0.4s ease-in-out;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  /* *******Contactus-seciton CSS ends here******* */
+    
+    </style>
+  </head>
+
+  <body>
+  
+    <!-- section for intro -->
+    <section id="intro">
+    <nav class="intro-navigation">
+      <a href="#intro">Intro</a>
+      <a href="#Skills">Skills</a>
+      <a href="#Education">Education</a>
+      <a href="#Contactus">Contact-Us</a>
+    </nav>
+    <img
+    class="intro-profile"
+      src="raghav (1).jfif"
+      alt=""
+      width="300"
+    />
+     
+    
+      
+        <!-- paragraph of intro -->
+        <div class="intro-description">
+          <label for="" class="Hi">Hi!</label> I'm <br /><label
+            for=""
+            class="name"
+            >raghav mittal</label
+          >
+          <br />
+          <br />
+          A 2nd year undergraduate student at <br />
+          <label for="" class="collegename">IIT KGP</label> <br />
+          in the department of <br /><label class="departmentname" for=""
+            >Instrumentation engineering</label
+          >
+          <br />
+          enrolled in its b.tech 4yr programme, <br />
+          belongs to <label for="" class="native">jaipur,rajasthan.</label><br />
+          <hr />
+          I love solving problems using Coding and <br />
+          build Software and Electronic Projects. Also, <br />
+          I like pushing myself and taking up new challenges.
+        </div>
+      </section>
+    <!--  -->
+    <!-- <section id="Skills">
+     <div class="upperskillbox">
+      <div class="heading1">programming Languages <hr><br> 
+        
+      </div>
+      <div class="programming">
+        <img class="programmingimage" src="C.png" alt="" width="150px" height="150px"/>
+        <img class="programmingimage" src="C++.png" alt="" width="150px" height="150px" />
+        <img class="programmingimage" src="JAVA.png" alt="" width="150px" height="150px" />
+        <img class="programmingimage" src="algorithm.png" alt="" width="150px" height="150px" />
+         <br>
+         <label class="C"  for="C"> C Language</label>
+         <label class="Cpp"  for="Cpp"> C++ Language</label>
+         <label class="JAVA"  for="JAVA"> JAVA  </label>
+         <label class="Algorithm"  for="Algorithm"> DSA</label>
+         <br><br> <br>
+        <img class="programmingimage" src="HTML.png" alt=""width="150px" height="150px" />
+        <img class="programmingimage" src="CSS2.png" alt="" width="150px" height="150px" />
+        <img class="programmingimage" src="js.png" alt="" width="150px" height="150px" />
+        <img class="programmingimage" src="react.png" alt="" width="150px" height="150px" />
+         <br>
+         <label class="HTML"  for="HTML"> HTML</label>
+         <label class="CSS"  for="CSS"> CSS</label>
+         <label class="Java-Script"  for="Java-Script"> Java-Script  </label>
+         <label class="react"  for="react"> react</label>
+        </div>
+        </div>
+
+           <br>  
+           <div class="lowerskillbox">
+             <div class="myHobby">My Hobbies  <hr></div>
+           
+            <img class="myHobbyimage" src="musiclistening.png" alt=""width="150px" height="150px" />
+            <img class="myHobbyimage" src="cycling.png" alt="" width="150px" height="150px" />
+            <img class="myHobbyimage" src="coding.jpg" alt="" width="150px" height="150px" />
+            <img class="myHobbyimage" src="chess.jpg" alt="" width="150px" height="150px" />
+            <br>
+            
+          </div>
+
+           </div>
+      
+       
+    </section> -->
+    <section id ="Skills">
+     
+      <div class="educationnav" style="height: 50px;"> </div>   <!-- it is made to set navigation on the top of page by making its height 50px(height of navigation bar)  -->
+      <div class="Skills-upperskillbox">
+        <div class="Skills-heading1">programming Languages <hr><br> 
+          
+        </div>
+      <div class="Skills-programmingimage1">
+      <p> <img src="C.png" alt="" width="150px" height="150px"> <br>  <label class="Skills-Skills-C"  for="C"> C Language</label> </p>
+      <p> <img src="C++.png" alt="" width="150px" height="150px"> <br>  <label class="Skills-Cpp"  for="Cpp"> C++ Language</label> </p>
+      <p> <img src="JAVA.png" alt="" width="150px" height="150px"> <br>  <label class="Skills-JAVA"  for="JAVA"> JAVA </label>  </p>
+      <p> <img src="algorithm.png" alt="" width="150px" height="150px"> <br> <label class="Skills-Algorithm"  for="Algorithm"> DSA</label> </p>
+      
+     
+      </div>
+      <div class="Skills-programmingimage1">
+     
+      
+      <p> <img src="HTML.png" alt="" width="150px" height="150px">  <br><label class="Skills-HTML"  for="HTML"> HTML</label> </p>
+      <p> <img src="CSS2.png" alt="" width="150px" height="150px"> <br> <label class="Skills-CSS"  for="CSS"> CSS</laCSS</p>
+      <p> <img src="js.png" alt="" width="150px" height="150px"> <br><label class="Skills-Java-Script"  for="Java-Script"> Java-Script  </label> </p>
+      <p> <img src="react.png" alt="" width="150px" height="150px"> <br><label class="Skills-react"  for="react"> react</label></p>
+       
+      </div>
+ </div>
+       <div class="Skills-lowerskillbox">
+             <div class="Skills-myHobby-Heading">My Hobbies  <hr></div>
+           <div class="Skills-myHobbyimage1">
+           <p> <img class="Skills-myHobbyimage" src="musiclistening.png" alt=""width="150px" height="150px" /></p>
+           <p> <img class="Skills-myHobbyimage" src="cycling.png" alt="" width="150px" height="150px" /></p>
+           <p> <img class="Skills-myHobbyimage" src="coding.jpg" alt="" width="150px" height="150px" /></p>
+           <p> <img class="Skills-myHobbyimage" src="chess.jpg" alt="" width="150px" height="150px" /></p>
+            <br>
+          </div>
+          </div>
+
+           </div>
+    </section>
+    <section id="Education">
+      <div class="educationnav" style="height: 50px;"> </div>   <!-- it is made to set navigation on the top of page by making its height 50px(height of navigation bar)  -->
+        <div class="Education-part-1">
+        <div class="Education-part-1-start" >July 2006 - March 2018</div> 
+            <div class="Education-part-1-schoolname">Adarsh Vidya Mandir</div>
+            <br>
+            <label for="" class="Education-part-1-info"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quos expedita amet blanditiis soluta tempore eveniet iste, fugit nesciunt porro a ipsa animi repudiandae. Architecto ipsa harum beatae, sapiente reiciendis quibusdam vitae magnam ab aperiam consectetur accusamus omnis dicta. Dicta, mollitia, veniam vitae ipsa et ullam possimus ex veritatis obcaecati, ducimus fugit in praesentium omnis voluptatem. Unde necessitatibus modi consequatur deserunt autem, dolor fugiat soluta ad repellat est, enim illo iste illum labore officia qui culpa corrupti ullam odit et sapiente nulla libero doloremque ea. Illum porro, beatae explicabo non neque distinctio eius nam earum cum perspiciatis, autem iusto illo! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex repudiandae quo magnam possimus et, ipsum est id eaque officiis doloribus numquam quae maxime eos soluta fugit ut aspernatur beatae sed!</label>
+              
+        </div>
+        <div class="Education-part-2">
+            <label for="" class="Education-part-2-start" >April 2018 - oct 2019</label> <br>
+                <label for="" class="Education-part-2-schoolname">ALLEN CAREER INSTITUTE KOTA</label><br>
+                <br>
+                <label for="" class="Education-part-2-info"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quos expedita amet blanditiis soluta tempore eveniet iste, fugit nesciunt porro a ipsa animi repudiandae. Architecto ipsa harum beatae, sapiente reiciendis quibusdam vitae magnam ab aperiam consectetur accusamus omnis dicta. Dicta, mollitia, veniam vitae ipsa et ullam possimus ex veritatis obcaecati, ducimus fugit in praesentium omnis voluptatem. Unde necessitatibus modi consequatur deserunt autem, dolor fugiat soluta ad repellat est, enim illo iste illum labore officia qui culpa corrupti ullam odit et sapiente nulla libero doloremque ea. Illum porro, beatae explicabo non neque distinctio eius nam earum cum perspiciatis, autem iusto illo! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex repudiandae quo magnam possimus et, ipsum est id eaque officiis doloribus numquam quae maxime eos soluta fugit ut aspernatur beatae sed!</label>
+                 
+            </div>
+            <div class="Education-part-3">
+                <label for="" class="Education-part-3-start" >December 2020 - present </label> <br>
+                    <label for="" class="Education-part-3-schoolname">INDIAN INSTITUTE OF TECHNOLOGY KHARAGPUR</label><br>
+                    <br>
+                    <label for="" class="Education-part-3-info"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quos expedita amet blanditiis soluta tempore eveniet iste, fugit nesciunt porro a ipsa animi repudiandae. Architecto ipsa harum beatae, sapiente reiciendis quibusdam vitae magnam ab aperiam consectetur accusamus omnis dicta. Dicta, mollitia, veniam vitae ipsa et ullam possimus ex veritatis obcaecati, ducimus fugit in praesentium omnis voluptatem. Unde necessitatibus modi consequatur deserunt autem, dolor fugiat soluta ad repellat est, enim illo iste illum labore officia qui culpa corrupti ullam odit et sapiente nulla libero doloremque ea. Illum porro, beatae explicabo non neque distinctio eius nam earum cum perspiciatis, autem iusto illo! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex repudiandae quo magnam possimus et, ipsum est id eaque officiis doloribus numquam quae maxime eos soluta fugit ut aspernatur beatae sed!</label>
+                      
+                </div>
+             
+
+
+    </section>
+    <section id="Contactus">
+      <!-- <div class="contact">  -->
+        <div class="educationnav" style="height: 50px;"> </div>   <!-- it is made to set navigation on the top of page by making its height 50px(height of navigation bar)  -->
+      <div class="Contactus-head">
+        <div class="contactus-heading" for="">Contact-Us</div>
+        <div class="contactus-Number-Mail">
+         
+        <label for="phone" class="phone">&#9990;<em> +91-8890960467</em> </label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label for="or" class="or"> <em>or</em>  </label> 
+        <label for="email" class="email"><a style="text-decoration: none;color: black;" href="mailto:rdsrds271330@gmail.com"> &#128388; <em> Email Us</em> </a></label>
+        </div>
+        <div class="contactus-socialmedia"> 
+          <a class="linkedin" href="https://www.linkedin.com/in/raghav-mittal-bb3b26213" target="_blank"><img src="linkedin.gif" alt="linkedin" width="50px"></a>
+          <a class="twitter" href=" https://twitter.com/Itsrm23519127?s=08" target="_blank"><img src="twitter.gif" alt="twitter" width="50px"></a>
+          <a class="facebook" href="  https://www.facebook.com/raghav.mittal.301" target="_blank"><img src="facebook.gif" alt="facebook" width="50px"></a>
+          <a class="instagram" href="https://www.instagram.com/" target="_blank"><img src="instagram.gif" alt="instagram" width="50px"></a>
+        </div>
+      </div>
+       
+       <div class="contactus-form">
+           <form action="/" method="POST">
+        <input type="text" name="name" id="input_comp-knse4s16" class="_3rh7f has-custom-focus" value="" placeholder="Name" required="" maxlength="100" aria-label="Name">
+            <input type="email" name="email" value="" placeholder="Email" maxlength="100" aria-label="email">
+          <br>
+          <input type="tel" name="phone" value="" placeholder="Phone" maxlength="100" aria-label="phone">
+          <input type="text" name="address" value="" placeholder="Address" maxlength="100" aria-label="address"><br>
+          <input type="text" name="subject" value="" placeholder="Subject" maxlength="100" aria-label="subject" style="width: 450px;">
+          <br><br>
+          <textarea name="messege" id="" cols="59" rows="7" placeholder="Type your messege..." style="border: none; border-bottom: 1px solid rgb(51, 50, 50); background:none;"></textarea>
+          <br>
+          <button type="submit" style=" padding: 8px 194px; margin: 4px 0px;">Submit</button>
+        </form>
+        </div>
+    <!-- </div> -->
+    </section>
+  </body>
+</html>
